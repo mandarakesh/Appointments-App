@@ -1,0 +1,44 @@
+.list-items {
+  border: 1px solid #b5b7c4;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 15px;
+  padding: 15px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+  .list-items {
+    width: 30%;
+  }
+}
+.title-name {
+  font-family: 'Roboto';
+  color: #171f46;
+  font-size: 24px;
+  font-weight: 500;
+}
+.date-text {
+  font-family: 'Roboto';
+  color: #b5b7c4;
+  font-size: 20px;
+  margin-top: 0px;
+  font-weight: 500;
+}
+.star-image {
+  height: 30px;
+}
+@media screen and (min-width: 768px) and (max-width: 900px) {
+  .list-items {
+    width: 45%;
+  }
+}
+.image-button {
+  margin-top: 13px;
+  align-self: flex-start;
+  border: none;
+  background-color: transparent;
+}

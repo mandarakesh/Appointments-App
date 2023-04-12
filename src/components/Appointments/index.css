@@ -1,0 +1,122 @@
+.bg-container {
+  background-image: linear-gradient(to bottom, #9796f0, #fbc7d4);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.appointment-container {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+  padding-top: 40px;
+}
+.heading {
+  font-family: 'Roboto';
+  color: #171f46;
+  font-size: 30px;
+  font-weight: 500;
+}
+.title {
+  font-family: 'Roboto';
+  color: #b5b7c4;
+  font-size: 17px;
+  margin-bottom: 0px;
+  font-weight: 500;
+  margin-top: 30px;
+}
+.input-text {
+  margin-top: 6px;
+  border: 2px solid #b5b7c4;
+  height: 45px;
+  width: 100%;
+  padding: 10px;
+  font-family: 'Roboto';
+  font-size: 18px;
+  border-radius: 5px;
+  outline: none;
+  margin-bottom: 30px;
+}
+.button {
+  border: none;
+  background-color: #8b5cf6;
+  padding: 10px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 18px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+  outline: none;
+}
+.line {
+  border: 1px solid #b5b7c4;
+  margin-top: 30px;
+}
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.appointment-image {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .large-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .appointment-image {
+    display: flex;
+    width: 40%;
+  }
+  .input-text {
+    width: 120%;
+  }
+}
+.appointments-text {
+  font-family: 'Roboto';
+  color: #171f46;
+  font-size: 25px;
+  font-weight: 500;
+}
+.starred-button {
+  background-color: transparent;
+  border: 2px solid #9897f0;
+  padding: 7px;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: 'Roboto';
+  color: #9897f0;
+  font-weight: 500;
+  font-size: 17px;
+  align-self: center;
+}
+.buttonEl {
+  background-color: #9897f0;
+  color: #ffffff;
+}
+.appointment-list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+
+  padding-left: 0px;
+}
+@media screen and (min-width: 768px) {
+  .appointment-list-container {
+    flex-direction: row;
+    max-width: 1190px;
+  }
+  .appointment-container {
+    padding: 50px;
+  }
+  .bg-container {
+    padding: 60px;
+  }
+}
